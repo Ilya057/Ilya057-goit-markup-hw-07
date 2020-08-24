@@ -1,0 +1,84 @@
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $bg-color;
+  .logo {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  .part {
+    color: #ffffff;
+  }
+  .text {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+.location {
+  display: inline-block;
+  margin-top: 20px;
+  color: #ffffff;
+  font-style: normal;
+}
+.center-section {
+  margin-left: 70px;
+  .social {
+    display: flex;
+  }
+  .text {
+    color: $white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+.link-item:not(:last-child) {
+  margin-right: 10px;
+}
+.dark-theme .social-icon {
+  fill: white;
+}
+.footer-subscribe {
+  margin-left: 93px;
+  .text {
+    margin-bottom: 20px;
+  }
+}
+.footer-field {
+  display: flex;
+  align-items: center;
+}
+.footer-input {
+  padding: 15px 16px;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: $white;
+  border-radius: 4px;
+}
+.footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: $white;
+  background-color: $accent;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+}
+.footer-icon {
+  margin-left: 10px;
+}

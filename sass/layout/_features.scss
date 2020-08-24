@@ -1,0 +1,31 @@
+.features {
+  display: flex;
+}
+.feature-item {
+  width: calc((100% - 30px * 2) / 3);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.feature-thumb {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.feature-text {
+  position: absolute;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 82px;
+  padding-right: 82px;
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+  background: rgba(47, 48, 58, 0.8);
+}

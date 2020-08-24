@@ -1,0 +1,28 @@
+.button {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+.button-item {
+  padding-top: 8px;
+  padding-right: 22px;
+  padding-bottom: 8px;
+  padding-left: 22px;
+  border: transparent;
+  border-radius: 4px;
+  color: $secondary-text-color;
+  background-color: $secondary-bg-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $white;
+    background-color: $accent;
+  }
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}

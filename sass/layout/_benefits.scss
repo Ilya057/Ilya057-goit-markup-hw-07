@@ -1,0 +1,52 @@
+.benefit-item-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  color: $secondary-text-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.grid-item {
+  width: calc((100% - 30px * 3) / 4);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+  &:nth-child(1)::before {
+    background-image: url(../images/antenna-1.svg);
+  }
+  &:nth-child(2)::before {
+    background-image: url(../images/clock-1.svg);
+  }
+  &:nth-child(3)::before {
+    background-image: url(../images/diagram-1.svg);
+  }
+  &:nth-child(4)::before {
+    background-image: url(../images/astronaut-1.svg);
+  }
+}
+
+.benefit-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $secondary-bg-color;
+}
+
+.benefit-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
